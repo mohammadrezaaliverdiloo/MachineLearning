@@ -1,0 +1,20 @@
+#import libararies
+
+import numpy as np
+import pandas as pd
+import torch.nn as nn
+
+
+#ariables
+
+lr = 0.01
+batch_size = 20
+epoch = 500
+
+
+#preproccessing
+#read data
+
+data = pd.read_csv("#")
+data.head(10)
+
